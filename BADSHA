@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Badsha Digital Seva | Ratua Haat</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f6fb;color:#172554}
+header{background:#073b85;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.logo{font-size:23px;font-weight:bold}
+header a{color:white;text-decoration:none;margin:7px}
+.hero{padding:65px 7%;background:linear-gradient(120deg,#063781,#1261b5);color:white}
+.hero h1{font-size:clamp(30px,5vw,48px);max-width:700px;margin:10px 0}
+.hero p{font-size:18px;line-height:1.7}
+.btn{display:inline-block;background:#16c65b;color:white;padding:13px 20px;border-radius:8px;text-decoration:none;font-weight:bold;margin:8px 5px 0 0}
+section{padding:38px 6%}
+h2{text-align:center;color:#073b85}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px}
+.card{background:white;padding:22px;border-radius:12px;box-shadow:0 3px 15px #00000010}
+.card h3{margin-top:0;color:#0b4b97}
+.contact{background:#e2ecfb;text-align:center;border-radius:15px;padding:30px}
+footer{background:#082c60;color:white;text-align:center;padding:24px;line-height:1.8}
+small{color:#dbeafe}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🏪 Badsha Digital Seva</div>
+  <nav>
+    <a href="#home">होम</a>
+    <a href="#services">सेवाएँ</a>
+    <a href="#about">हमारे बारे में</a>
+    <a href="#contact">संपर्क</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <p>📍 Ratua Haat, Kishanganj, Bihar</p>
+  <h1>आपके सभी सरकारी काम — एक जगह</h1>
+  <p>Aadhaar सहायता, PAN कार्ड, प्रमाण पत्र, ऑनलाइन फॉर्म और अन्य डिजिटल सेवाओं के लिए हमसे संपर्क करें।</p>
+  <a class="btn" href="https://wa.me/917484075964?text=Namaste%2C%20mujhe%20online%20seva%20chahiye" target="_blank" rel="noopener">WhatsApp पर संपर्क करें</a>
+  <a class="btn" href="#services" style="background:#f59e0b">सेवाएँ देखें</a>
+</div>
+
+<section id="services">
+  <h2>हमारी सेवाएँ</h2>
+  <div class="services">
+    <div class="card"><h3>🪪 PAN कार्ड</h3><p>नए PAN और सुधार संबंधी सहायता।</p></div>
+    <div class="card"><h3>📄 आय प्रमाण पत्र</h3><p>आय प्रमाण पत्र के आवेदन में सहायता।</p></div>
+    <div class="card"><h3>📃 जाति प्रमाण पत्र</h3><p>जाति प्रमाण पत्र के आवेदन में सहायता।</p></div>
+    <div class="card"><h3>🏠 निवास प्रमाण पत्र</h3><p>निवास प्रमाण पत्र के आवेदन में सहायता।</p></div>
+    <div class="card"><h3>🍚 राशन कार्ड</h3><p>राशन कार्ड संबंधी ऑनलाइन सहायता।</p></div>
+    <div class="card"><h3>💻 ऑनलाइन फॉर्म</h3><p>ऑनलाइन आवेदन और फॉर्म भरने में सहायता।</p></div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>हमारे बारे में</h2>
+  <div class="card">
+    <p><strong>Badsha Digital Seva – Ratua Haat</strong> में आपका स्वागत है। हम विभिन्न ऑनलाइन सेवाओं और आवेदन प्रक्रियाओं में सहायता प्रदान करने का प्रयास करते हैं।</p>
+    <p>स्थान: Ratua Haat, Pothia, Kishanganj, Bihar – 855117</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <h2>हमसे संपर्क करें</h2>
+    <p>ऑनलाइन सेवा या आवेदन के लिए WhatsApp पर संदेश भेजें।</p>
+    <p><strong>मोबाइल: 7484075964</strong></p>
+    <a class="btn" href="https://wa.me/917484075964" target="_blank" rel="noopener">अभी WhatsApp करें</a>
+  </div>
+</section>
+
+<footer>
+  <strong>Badsha Digital Seva – Ratua Haat</strong><br>
+  Pothia, Kishanganj, Bihar – 855117<br>
+  © 2026 Badsha Digital Seva
+  <p><small>सभी आवेदन संबंधित सरकारी पोर्टल के नियमों के अधीन हैं।</small></p>
+</footer>
+</body>
+</html>
