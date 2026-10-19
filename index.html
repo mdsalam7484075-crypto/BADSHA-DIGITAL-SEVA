@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#10264a">
 <title>Badsha Digital Seva | Ratua Haat</title>
 
 <style>
@@ -11,42 +10,34 @@
 body{
  margin:0;
  font-family:Arial,sans-serif;
- background:#f2f5fa;
- color:#17233c
+ background:#f1f5f9;
+ color:#172033;
+ line-height:1.6
 }
 header{
  background:#10264a;
  color:white;
- padding:20px 15px;
+ padding:22px 15px;
  text-align:center
 }
-header h1{margin:0;font-size:25px}
-header p{margin:8px 0 0;color:#dce8ff}
+header h1{margin:0;font-size:27px}
+header p{margin:5px 0}
 nav{
- display:flex;
- gap:8px;
+ background:#173b70;
  padding:12px;
- background:white;
- position:sticky;
- top:0;
- z-index:5;
- box-shadow:0 2px 8px #0001
+ text-align:center
 }
-button{
- cursor:pointer;
- border:0;
- border-radius:8px;
- padding:12px;
- font-size:15px
-}
-nav button{
- flex:1;
- background:#e6edfa;
- color:#10264a;
+nav a{
+ color:white;
+ text-decoration:none;
+ margin:0 10px;
  font-weight:bold
 }
-nav button.active{background:#1769d2;color:white}
-.container{max-width:850px;margin:auto;padding:16px}
+.container{
+ max-width:850px;
+ margin:auto;
+ padding:16px
+}
 .hero{
  background:linear-gradient(135deg,#10264a,#1769d2);
  color:white;
@@ -55,7 +46,59 @@ nav button.active{background:#1769d2;color:white}
  margin-bottom:18px
 }
 .hero h2{margin-top:0;font-size:25px}
-.hero p{line-height:1.7}
+.card{
+ background:white;
+ border-radius:13px;
+ padding:18px;
+ margin-bottom:16px;
+ box-shadow:0 3px 12px #172338<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Badsha Digital Seva | Ratua Haat</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#f1f5f9;
+ color:#172033;
+ line-height:1.6
+}
+header{
+ background:#10264a;
+ color:white;
+ padding:22px 15px;
+ text-align:center
+}
+header h1{margin:0;font-size:27px}
+header p{margin:5px 0}
+nav{
+ background:#173b70;
+ padding:12px;
+ text-align:center
+}
+nav a{
+ color:white;
+ text-decoration:none;
+ margin:0 10px;
+ font-weight:bold
+}
+.container{
+ max-width:850px;
+ margin:auto;
+ padding:16px
+}
+.hero{
+ background:linear-gradient(135deg,#10264a,#1769d2);
+ color:white;
+ padding:25px 20px;
+ border-radius:15px;
+ margin-bottom:18px
+}
+.hero h2{margin-top:0;font-size:25px}
 .card{
  background:white;
  border-radius:13px;
@@ -63,7 +106,7 @@ nav button.active{background:#1769d2;color:white}
  margin-bottom:16px;
  box-shadow:0 3px 12px #17233c0d
 }
-.card h3{margin-top:0;color:#10264a}
+.card h2,.card h3{margin-top:0;color:#10264a}
 .grid{
  display:grid;
  grid-template-columns:repeat(2,minmax(0,1fr));
@@ -71,4 +114,178 @@ nav button.active{background:#1769d2;color:white}
 }
 .service{
  background:#f0f5ff;
- padding:16
+ padding:15px;
+ border-radius:10px;
+ border:1px solid #dbeafe
+}
+label{
+ display:block;
+ font-weight:bold;
+ margin:12px 0 5px
+}
+input,select,textarea{
+ width:100%;
+ padding:12px;
+ border:1px solid #cbd5e1;
+ border-radius:8px;
+ font-size:16px
+}
+button,.btn{
+ display:inline-block;
+ border:0;
+ border-radius:8px;
+ padding:12px 16px;
+ background:#087443;
+ color:white;
+ font-size:16px;
+ font-weight:bold;
+ text-decoration:none;
+ cursor:pointer;
+ margin-top:12px
+}
+.whatsapp{background:#168447}
+.note{
+ background:#fff7d6;
+ padding:12px;
+ border-radius:8px;
+ font-size:14px
+}
+footer{
+ text-align:center;
+ background:#10264a;
+ color:white;
+ padding:20px
+}
+@media(max-width:520px){
+ header h1{font-size:23px}
+ .grid{grid-template-columns:1fr}
+ nav a{display:inline-block;margin:4px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+ <h1>BADSHA DIGITAL SEVA</h1>
+ <p>Ratua Haat, Kishanganj, Bihar</p>
+ <p>आपकी डिजिटल सेवाओं का विश्वसनीय केंद्र</p>
+</header>
+
+<nav>
+ <a href="#home">होम</a>
+ <a href="#services">सेवाएँ</a>
+ <a href="#apply">आवेदन</a>
+ <a href="#contact">संपर्क</a>
+</nav>
+
+<main class="container">
+
+<section class="hero" id="home">
+ <h2>आपका स्वागत है!</h2>
+ <p>विभिन्न ऑनलाइन सेवाओं के लिए Badsha Digital Seva से संपर्क करें।</p>
+ <a class="btn whatsapp"
+ href="https://wa.me/917484075964"
+ target="_blank" rel="noopener">
+ WhatsApp पर संपर्क करें
+ </a>
+</section>
+
+<section class="card" id="services">
+ <h2>हमारी सेवाएँ</h2>
+ <div class="grid">
+  <div class="service">📄<h3>जाति प्रमाण पत्र</h3><p>आवेदन सहायता</p></div>
+  <div class="service">🏠<h3>निवास प्रमाण पत्र</h3><p>आवेदन सहायता</p></div>
+  <div class="service">💰<h3>आय प्रमाण पत्र</h3><p>आवेदन सहायता</p></div>
+  <div class="service">🪪<h3>पहचान पत्र</h3><p>आवेदन सहायता</p></div>
+  <div class="service">🖨️<h3>ऑनलाइन फॉर्म</h3><p>फॉर्म भरने में सहायता</p></div>
+  <div class="service">📑<h3>अन्य डिजिटल सेवाएँ</h3><p>जानकारी के लिए संपर्क करें</p></div>
+ </div>
+</section>
+
+<section class="card" id="apply">
+ <h2>ऑनलाइन आवेदन पूछताछ</h2>
+
+ <p class="note">
+ यह फॉर्म आपकी जानकारी WhatsApp संदेश में तैयार करेगा।
+ संदेश भेजने से पहले आप उसे देख सकते हैं।
+ कृपया यहाँ आधार नंबर, बैंक जानकारी या अन्य संवेदनशील दस्तावेज़ न भरें।
+ </p>
+
+ <form id="applicationForm">
+  <label for="customerName">आपका नाम</label>
+  <input id="customerName" required maxlength="80"
+   placeholder="अपना नाम लिखें">
+
+  <label for="phone">मोबाइल नंबर</label>
+  <input id="phone" type="tel" required
+   pattern="[0-9]{10}" maxlength="10"
+   placeholder="10 अंकों का मोबाइल नंबर">
+
+  <label for="service">कौन-सी सेवा चाहिए?</label>
+  <select id="service" required>
+   <option value="">सेवा चुनें</option>
+   <option>जाति प्रमाण पत्र</option>
+   <option>निवास प्रमाण पत्र</option>
+   <option>आय प्रमाण पत्र</option>
+   <option>पहचान पत्र</option>
+   <option>ऑनलाइन फॉर्म</option>
+   <option>अन्य सेवा</option>
+  </select>
+
+  <label for="details">अन्य जानकारी (वैकल्पिक)</label>
+  <textarea id="details" rows="3" maxlength="500"
+   placeholder="अपनी जरूरत संक्षेप में लिखें"></textarea>
+
+  <button type="submit">WhatsApp पर पूछताछ भेजें</button>
+ </form>
+</section>
+
+<section class="card" id="contact">
+ <h2>हमसे संपर्क करें</h2>
+ <p><strong>दुकान:</strong> Badsha Digital Seva, Ratua Haat</p>
+ <p><strong>पता:</strong> पोस्ट पहारकट्टा, पोठिया, किशनगंज, बिहार 855117</p>
+ <p><strong>मोबाइल:</strong> 7484075964</p>
+ <a class="btn whatsapp"
+ href="https://wa.me/917484075964"
+ target="_blank" rel="noopener">
+ WhatsApp खोलें
+ </a>
+</section>
+
+</main>
+
+<footer>
+ <p>© <span id="year"></span> Badsha Digital Seva</p>
+ <p>Ratua Haat, Kishanganj, Bihar</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+ new Date().getFullYear();
+
+document.getElementById("applicationForm")
+.addEventListener("submit",function(event){
+ event.preventDefault();
+
+ const name=document.getElementById("customerName").value.trim();
+ const phone=document.getElementById("phone").value.trim();
+ const service=document.getElementById("service").value;
+ const details=document.getElementById("details").value.trim();
+
+ const message =
+ "Badsha Digital Seva - Online Inquiry\n\n"+
+ "Name: "+name+"\n"+
+ "Mobile: "+phone+"\n"+
+ "Service: "+service+"\n"+
+ "Details: "+(details || "Not provided");
+
+ const url="https://wa.me/917484075964?text="+
+ encodeURIComponent(message);
+
+ window.open(url,"_blank","noopener");
+});
+</script>
+
+</body>
+</html>
